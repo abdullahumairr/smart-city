@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hover11 figure {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hover11 figure:hover {
+  background: #007aff;
+}
+.hover11 figure:hover img {
+  filter: brightness(100);
+}
+
+.sosmed .figure {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.sosmed:hover {
+  background: #007aff;
+}
+
+.sosmed .figure:hover img {
+  filter: brightness(100);
+}
